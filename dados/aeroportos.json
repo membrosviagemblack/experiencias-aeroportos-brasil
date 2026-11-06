@@ -1,6 +1,6 @@
 {
   "project": "Airport Experience Brasil",
-  "description": "Guia independente de experiências em aeroportos brasileiros",
+  "description": "Catálogo de experiências em aeroportos brasileiros. Dados organizados a partir da planilha de referência.",
   "airports": [
     {
       "id": "GRU",
@@ -84,7 +84,10 @@
         "VCP-58",
         "VCP-59",
         "VCP-60",
-        "VCP-61"
+        "VCP-61",
+        "VCP-PP-1",
+        "VCP-PP-2",
+        "VCP-PP-3"
       ]
     },
     {
@@ -110,19 +113,19 @@
       ]
     },
     {
-      "id": "airport-5",
-      "code": "",
+      "id": "SDU",
+      "code": "SDU",
       "city": "Rio de Janeiro",
-      "name": "Rio de Janeiro — Santos Dumont",
+      "name": "Rio de Janeiro — Santos Dumont (SDU)",
       "experiences": [
-        "airport-76",
-        "airport-77",
-        "airport-78",
-        "airport-79",
-        "airport-80",
-        "airport-81",
-        "airport-82",
-        "airport-83"
+        "SDU-1",
+        "SDU-2",
+        "SDU-3",
+        "SDU-4",
+        "SDU-5",
+        "SDU-6",
+        "SDU-7",
+        "SDU-8"
       ]
     },
     {
@@ -359,7 +362,8 @@
       "code": "BYO",
       "city": "Bonito (BYO)",
       "name": "Bonito (BYO) — Aeroporto Region",
-      "experiences": []
+      "experiences": [],
+      "status": "Sem experiência confirmada na fonte consultada"
     },
     {
       "id": "REC",
@@ -545,28 +549,77 @@
       "code": "PVH",
       "city": "Porto Velho (PVH)",
       "name": "Porto Velho (PVH) — Aeroporto",
-      "experiences": []
+      "experiences": [],
+      "status": "Sem experiência confirmada na fonte consultada"
     },
     {
       "id": "RBR",
       "code": "RBR",
       "city": "Rio Branco (RBR)",
       "name": "Rio Branco (RBR) — Aeroporto In",
-      "experiences": []
+      "experiences": [],
+      "status": "Sem experiência confirmada na fonte consultada"
     },
     {
       "id": "BVB",
       "code": "BVB",
       "city": "Boa Vista (BVB)",
       "name": "Boa Vista (BVB) — Aeroporto Int",
-      "experiences": []
+      "experiences": [],
+      "status": "Sem experiência confirmada na fonte consultada"
     },
     {
       "id": "STM",
       "code": "STM",
       "city": "Santarém (STM)",
       "name": "Santarém (STM) — Aeroporto Inte",
-      "experiences": []
+      "experiences": [],
+      "status": "Sem experiência confirmada na fonte consultada"
+    },
+    {
+      "id": "CPV",
+      "code": "CPV",
+      "city": "Campina Grande",
+      "name": "Campina Grande — Presidente João Suassuna (CPV)",
+      "experiences": [
+        "CPV-1"
+      ]
+    },
+    {
+      "id": "FEN",
+      "code": "FEN",
+      "city": "Fernando de Noronha",
+      "name": "Fernando de Noronha (FEN)",
+      "experiences": [
+        "FEN-1"
+      ]
+    },
+    {
+      "id": "JJD",
+      "code": "JJD",
+      "city": "Jericoacoara",
+      "name": "Jericoacoara — Aeroporto Regional (JJD)",
+      "experiences": [
+        "JJD-1"
+      ]
+    },
+    {
+      "id": "RRJ",
+      "code": "RRJ",
+      "city": "Rio de Janeiro",
+      "name": "Rio de Janeiro — Jacarepaguá (RRJ)",
+      "experiences": [
+        "RRJ-1"
+      ]
+    },
+    {
+      "id": "VDC",
+      "code": "VDC",
+      "city": "Vitória da Conquista",
+      "name": "Vitória da Conquista — Glauber Rocha (VDC)",
+      "experiences": [
+        "VDC-1"
+      ]
     }
   ],
   "experiences": [
@@ -1618,118 +1671,6 @@
       "loungeKey": "Não",
       "location": "Piso térreo, próxima ao restaurante Bleriot",
       "rules": "Exclusivo para portadores dos cartões de crédito Bradesco Visa Aeternum, The Centurion Card, The Platinum Card e Elo Diners Club com um acompanhante sem custo e filhos com até 16 anos.",
-      "tips": ""
-    },
-    {
-      "id": "airport-76",
-      "airportCode": "",
-      "airportCity": "Rio de Janeiro",
-      "name": "Emerald Lounge",
-      "category": "Sala VIP",
-      "hours": "05h–21h",
-      "vac": "Sim",
-      "priorityPass": "Não",
-      "loungeKey": "Não",
-      "location": "Terminal 2, área pública",
-      "rules": "DragonPass conforme elegibilidade",
-      "tips": "Boa opção antes da segurança"
-    },
-    {
-      "id": "airport-77",
-      "airportCode": "",
-      "airportCity": "Rio de Janeiro",
-      "name": "Advantage VIP Lounge – Landside",
-      "category": "Sala VIP",
-      "hours": "05h–21h",
-      "vac": "Não",
-      "priorityPass": "Sim",
-      "loungeKey": "Sim",
-      "location": "Terminal principal, térreo, área pública",
-      "rules": "Permanência máxima conforme regra da sala",
-      "tips": ""
-    },
-    {
-      "id": "airport-78",
-      "airportCode": "",
-      "airportCity": "Rio de Janeiro",
-      "name": "Advantage VIP Lounge – Airside",
-      "category": "Sala VIP",
-      "hours": "04h30–22h",
-      "vac": "Não",
-      "priorityPass": "Sim",
-      "loungeKey": "Sim",
-      "location": "Terminal principal, 1º andar, após raio-X",
-      "rules": "Permanência máxima de 3h",
-      "tips": ""
-    },
-    {
-      "id": "airport-79",
-      "airportCode": "",
-      "airportCity": "Rio de Janeiro",
-      "name": "Bluma",
-      "category": "Bem-estar e descanso",
-      "hours": "06h–22h",
-      "vac": "Não",
-      "priorityPass": "Sim",
-      "loungeKey": "Não",
-      "location": "Terminal, próximo ao portão 8",
-      "rules": "Tratamento de bem-estar; pode consumir uma visita",
-      "tips": ""
-    },
-    {
-      "id": "airport-80",
-      "airportCode": "",
-      "airportCity": "Rio de Janeiro",
-      "name": "Harmony Lounge",
-      "category": "Sala VIP",
-      "hours": "05:30 às 22:00",
-      "vac": "Sim",
-      "priorityPass": "Não",
-      "loungeKey": "Não",
-      "location": "1º pavimento do terminal, antes do controle de segurança (lado terra)",
-      "rules": "",
-      "tips": ""
-    },
-    {
-      "id": "airport-81",
-      "airportCode": "",
-      "airportCity": "Rio de Janeiro",
-      "name": "Orla 21",
-      "category": "Sala VIP",
-      "hours": "12:00-22:00",
-      "vac": "Sim",
-      "priorityPass": "Não",
-      "loungeKey": "Não",
-      "location": "",
-      "rules": "Desconto de 10% no restaurante",
-      "tips": ""
-    },
-    {
-      "id": "airport-82",
-      "airportCode": "",
-      "airportCity": "Rio de Janeiro",
-      "name": "Living Heineken",
-      "category": "Sala VIP",
-      "hours": "12:00-22:01",
-      "vac": "Sim",
-      "priorityPass": "Não",
-      "loungeKey": "Não",
-      "location": "",
-      "rules": "USD $32",
-      "tips": "Aceita desembarque. Não tem como passar o mesmo cartão várias vezes"
-    },
-    {
-      "id": "airport-83",
-      "airportCode": "",
-      "airportCity": "Rio de Janeiro",
-      "name": "Bradesco Lounge",
-      "category": "Sala VIP",
-      "hours": "5h30 às 22h30",
-      "vac": "Não",
-      "priorityPass": "Não",
-      "loungeKey": "Não",
-      "location": "1º andar, pré-embarque",
-      "rules": "São de uso exclusivo dos titulares e adicionais dos Cartões de Crédito Bradesco, The Centurion® Card, Visa\nAeternum, The Platinum Card®, Elo Diners Club, Bradesco Principal, Bradesco\nBank Visa Signature, American Express Business Platinum, American Express\nCorporate Platinum e American Express Gold Corporate (“Cartões Elegíveis”), emitidos no Brasil, bem como de seus convidados Convidados",
       "tips": ""
     },
     {
@@ -3523,6 +3464,238 @@
       "location": "Terminal principal, área pública, antes do raio-X, próximo ao desembarque",
       "rules": "Permanência máxima de 3h; café, lanches, bebidas e Wi-Fi, conforme disponibilidade",
       "tips": ""
+    },
+    {
+      "id": "SDU-1",
+      "airportCode": "SDU",
+      "airportCity": "Rio de Janeiro",
+      "name": "Emerald Lounge",
+      "category": "Sala VIP",
+      "hours": "05h–21h",
+      "vac": "Sim",
+      "priorityPass": "Não",
+      "loungeKey": "Não",
+      "location": "Terminal 2, área pública",
+      "rules": "DragonPass conforme elegibilidade",
+      "tips": "Boa opção antes da segurança"
+    },
+    {
+      "id": "SDU-2",
+      "airportCode": "SDU",
+      "airportCity": "Rio de Janeiro",
+      "name": "Advantage VIP Lounge – Landside",
+      "category": "Sala VIP",
+      "hours": "05h–21h",
+      "vac": "Não",
+      "priorityPass": "Sim",
+      "loungeKey": "Sim",
+      "location": "Terminal principal, térreo, área pública",
+      "rules": "Permanência máxima conforme regra da sala",
+      "tips": ""
+    },
+    {
+      "id": "SDU-3",
+      "airportCode": "SDU",
+      "airportCity": "Rio de Janeiro",
+      "name": "Advantage VIP Lounge – Airside",
+      "category": "Sala VIP",
+      "hours": "04h30–22h",
+      "vac": "Não",
+      "priorityPass": "Sim",
+      "loungeKey": "Sim",
+      "location": "Terminal principal, 1º andar, após raio-X",
+      "rules": "Permanência máxima de 3h",
+      "tips": ""
+    },
+    {
+      "id": "SDU-4",
+      "airportCode": "SDU",
+      "airportCity": "Rio de Janeiro",
+      "name": "Bluma",
+      "category": "Bem-estar e descanso",
+      "hours": "06h–22h",
+      "vac": "Não",
+      "priorityPass": "Sim",
+      "loungeKey": "Não",
+      "location": "Terminal, próximo ao portão 8",
+      "rules": "Tratamento de bem-estar; pode consumir uma visita",
+      "tips": ""
+    },
+    {
+      "id": "SDU-5",
+      "airportCode": "SDU",
+      "airportCity": "Rio de Janeiro",
+      "name": "Harmony Lounge",
+      "category": "Sala VIP",
+      "hours": "05:30 às 22:00",
+      "vac": "Sim",
+      "priorityPass": "Não",
+      "loungeKey": "Não",
+      "location": "1º pavimento do terminal, antes do controle de segurança (lado terra)",
+      "rules": "",
+      "tips": ""
+    },
+    {
+      "id": "SDU-6",
+      "airportCode": "SDU",
+      "airportCity": "Rio de Janeiro",
+      "name": "Orla 21",
+      "category": "Gastronomia",
+      "hours": "12:00-22:00",
+      "vac": "Sim",
+      "priorityPass": "Não",
+      "loungeKey": "Não",
+      "location": "",
+      "rules": "Desconto de 10% no restaurante",
+      "tips": ""
+    },
+    {
+      "id": "SDU-7",
+      "airportCode": "SDU",
+      "airportCity": "Rio de Janeiro",
+      "name": "Living Heineken",
+      "category": "Gastronomia",
+      "hours": "12:00-22:01",
+      "vac": "Sim",
+      "priorityPass": "Não",
+      "loungeKey": "Não",
+      "location": "",
+      "rules": "USD $32",
+      "tips": "Aceita desembarque. Não tem como passar o mesmo cartão várias vezes"
+    },
+    {
+      "id": "SDU-8",
+      "airportCode": "SDU",
+      "airportCity": "Rio de Janeiro",
+      "name": "Bradesco Lounge",
+      "category": "Sala VIP",
+      "hours": "5h30 às 22h30",
+      "vac": "Não",
+      "priorityPass": "Não",
+      "loungeKey": "Não",
+      "location": "1º andar, pré-embarque",
+      "rules": "São de uso exclusivo dos titulares e adicionais dos Cartões de Crédito Bradesco, The Centurion® Card, Visa\nAeternum, The Platinum Card®, Elo Diners Club, Bradesco Principal, Bradesco\nBank Visa Signature, American Express Business Platinum, American Express\nCorporate Platinum e American Express Gold Corporate (“Cartões Elegíveis”), emitidos no Brasil, bem como de seus convidados Convidados",
+      "tips": ""
+    },
+    {
+      "id": "CPV-1",
+      "airportCode": "CPV",
+      "airportCity": "Campina Grande",
+      "name": "Advantage VIP Lounge",
+      "category": "Sala VIP",
+      "hours": "00h–23h59",
+      "vac": "",
+      "priorityPass": "Sim",
+      "loungeKey": "",
+      "location": "Terminal; confirmar o ponto exato no aplicativo do programa",
+      "rules": "Listada no diretório oficial Priority Pass. A entrada depende da elegibilidade do cartão, da franquia disponível e das regras vigentes. Confirme no aplicativo antes da visita.",
+      "tips": "Confira o terminal e as condições de acesso no aplicativo Priority Pass antes de se deslocar até a sala.",
+      "sourceUrl": "https://www.prioritypass.com/pt-BR/lounges/brazil/campina-grande-joao-suassuna"
+    },
+    {
+      "id": "FEN-1",
+      "airportCode": "FEN",
+      "airportCity": "Fernando de Noronha",
+      "name": "Blue Lounge Noronha",
+      "category": "Sala VIP",
+      "hours": "09h30–17h30",
+      "vac": "",
+      "priorityPass": "Sim",
+      "loungeKey": "",
+      "location": "Terminal; confirmar o ponto exato no aplicativo do programa",
+      "rules": "Listada no diretório oficial Priority Pass. A entrada depende da elegibilidade do cartão, da franquia disponível e das regras vigentes. Confirme no aplicativo antes da visita.",
+      "tips": "Confira o terminal e as condições de acesso no aplicativo Priority Pass antes de se deslocar até a sala.",
+      "sourceUrl": "https://www.prioritypass.com/pt-BR/lounges/brazil/fernando-de-noronha-airport"
+    },
+    {
+      "id": "JJD-1",
+      "airportCode": "JJD",
+      "airportCity": "Jericoacoara",
+      "name": "Advantage VIP Lounge",
+      "category": "Sala VIP",
+      "hours": "08h–18h",
+      "vac": "",
+      "priorityPass": "Sim",
+      "loungeKey": "",
+      "location": "Terminal; confirmar o ponto exato no aplicativo do programa",
+      "rules": "Listada no diretório oficial Priority Pass. A entrada depende da elegibilidade do cartão, da franquia disponível e das regras vigentes. Confirme no aplicativo antes da visita.",
+      "tips": "Confira o terminal e as condições de acesso no aplicativo Priority Pass antes de se deslocar até a sala.",
+      "sourceUrl": "https://www.prioritypass.com/pt-BR/lounges/brazil/ariston-pessoa-regional"
+    },
+    {
+      "id": "RRJ-1",
+      "airportCode": "RRJ",
+      "airportCity": "Rio de Janeiro",
+      "name": "Advantage VIP Lounge",
+      "category": "Sala VIP",
+      "hours": "04h–22h",
+      "vac": "",
+      "priorityPass": "Sim",
+      "loungeKey": "",
+      "location": "Terminal; confirmar o ponto exato no aplicativo do programa",
+      "rules": "Listada no diretório oficial Priority Pass. A entrada depende da elegibilidade do cartão, da franquia disponível e das regras vigentes. Confirme no aplicativo antes da visita.",
+      "tips": "Confira o terminal e as condições de acesso no aplicativo Priority Pass antes de se deslocar até a sala.",
+      "sourceUrl": "https://www.prioritypass.com/pt-BR/lounges/brazil/jacarepagua-roberto-marinho"
+    },
+    {
+      "id": "VDC-1",
+      "airportCode": "VDC",
+      "airportCity": "Vitória da Conquista",
+      "name": "The Lounge Vitória da Conquista",
+      "category": "Sala VIP",
+      "hours": "23h–18h",
+      "vac": "",
+      "priorityPass": "Sim",
+      "loungeKey": "",
+      "location": "Terminal; confirmar o ponto exato no aplicativo do programa",
+      "rules": "Listada no diretório oficial Priority Pass. A entrada depende da elegibilidade do cartão, da franquia disponível e das regras vigentes. Confirme no aplicativo antes da visita.",
+      "tips": "Confira o terminal e as condições de acesso no aplicativo Priority Pass antes de se deslocar até a sala.",
+      "sourceUrl": "https://www.prioritypass.com/pt-BR/lounges/brazil/glauber-rocha"
+    },
+    {
+      "id": "VCP-PP-1",
+      "airportCode": "VCP",
+      "airportCity": "Campinas",
+      "name": "Ambaar Club",
+      "category": "Sala VIP",
+      "hours": "00h–23h59",
+      "vac": "",
+      "priorityPass": "Sim",
+      "loungeKey": "",
+      "location": "Terminal 1 doméstico, após a segurança, 1º andar, próximo à praça de alimentação",
+      "rules": "Permanência máxima de 4 horas; em horários de pico, acesso permitido até 4 horas antes do voo. Crianças menores de 2 anos não pagam.",
+      "tips": "Fica depois do controle de segurança. Confirme elegibilidade e lotação no aplicativo antes de ir.",
+      "sourceUrl": "https://www.prioritypass.com/en-GB/lounges/brazil/viracopos-campinas-international/vcp3-ambaar-club"
+    },
+    {
+      "id": "VCP-PP-2",
+      "airportCode": "VCP",
+      "airportCity": "Campinas",
+      "name": "The Lounge Viracopos",
+      "category": "Sala VIP",
+      "hours": "00h–23h59",
+      "vac": "",
+      "priorityPass": "Sim",
+      "loungeKey": "",
+      "location": "Terminal 1 doméstico, após a segurança, 1º andar",
+      "rules": "Acesso conforme elegibilidade do programa. Crianças menores de 12 anos podem ter gratuidade, sujeita às condições do programa.",
+      "tips": "Alternativa de sala VIP no embarque doméstico; confira as regras de convidados no aplicativo.",
+      "sourceUrl": "https://www.prioritypass.com/en-GB/lounges/brazil/campinas-viracopos-international/vcp8-the-lounge-viracopos"
+    },
+    {
+      "id": "VCP-PP-3",
+      "airportCode": "VCP",
+      "airportCity": "Campinas",
+      "name": "Advantage VIP Lounge",
+      "category": "Sala VIP",
+      "hours": "00h–23h59",
+      "vac": "",
+      "priorityPass": "Sim",
+      "loungeKey": "",
+      "location": "Terminal 1 doméstico, lado ar, 1º andar, próximo à praça de alimentação",
+      "rules": "Permanência máxima de 3 horas. O diretório também lista opção com Fast Track em horário separado.",
+      "tips": "Sala após a segurança; confirme qual modalidade aparece no seu aplicativo e as condições do acesso.",
+      "sourceUrl": "https://www.prioritypass.com/en-GB/lounges/brazil/viracopos-campinas-international/vcp12-advantage-vip-lounge-regular-entrance"
     }
   ]
 }
