@@ -1,41 +1,60 @@
 let DATA;
+let selectedAirport="";
 const $=id=>document.getElementById(id);
 const norm=s=>(s||"").toString().normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
 fetch("dados/aeroportos.json").then(r=>r.json()).then(d=>{DATA=d;$("airportCount").textContent=d.airports.length;$("experienceCount").textContent=d.experiences.length;populateAirports();render()}).catch(()=>{$("cards").innerHTML="<p>Não foi possível carregar os dados. Verifique se a pasta dados foi publicada junto com o site.</p>"});
-["search","airport","category","program"].forEach(id=>$(id).addEventListener(id==="search"?"input":"change",render));
-$("clear").addEventListener("click",()=>{$("search").value="";$("airport").value="";$("category").value="";$("program").value="";$("airportButton").innerHTML='Todos os aeroportos <span aria-hidden="true">▾</span>';render()});
+["search","category","program"].forEach(id=>$(id).addEventListener(id==="search"?"input":"change",render));
+$("airportToggle").addEventListener("click",()=>{
+ const open=$("airportToggle").getAttribute("aria-expanded")==="true";
+ $("airportToggle").setAttribute("aria-expanded",String(!open));
+ $("airportOptions").hidden=open;
+});
+document.addEventListener("click",e=>{
+ if(!$("airportPicker").contains(e.target)){
+  $("airportOptions").hidden=true;
+  $("airportToggle").setAttribute("aria-expanded","false");
+ }
+});
+document.addEventListener("keydown",e=>{
+ if(e.key==="Escape"){
+  $("airportOptions").hidden=true;
+  $("airportToggle").setAttribute("aria-expanded","false");
+  $("airportToggle").focus();
+ }
+});
+$("clear").addEventListener("click",()=>{$("search").value="";selectedAirport="";
+ $("airportSelected").textContent="Todos os aeroportos";
+ document.querySelectorAll(".airport-option").forEach(b=>b.setAttribute("aria-selected","false"));
+ $("airportOptions").hidden=true;
+ $("airportToggle").setAttribute("aria-expanded","false");$("category").value="";$("program").value="";render()});
 function populateAirports(){
- const select=$("airport"), button=$("airportButton"), menu=$("airportMenu");
+ const list=$("airportOptions");
+ list.innerHTML="";
+ const all=document.createElement("button");
+ all.type="button"; all.className="airport-option"; all.setAttribute("role","option"); all.setAttribute("aria-selected","true");
+ all.textContent="Todos os aeroportos";
+ all.addEventListener("click",()=>chooseAirport("","Todos os aeroportos",all));
+ list.appendChild(all);
  DATA.airports.slice().sort((a,b)=>(a.name||"").localeCompare(b.name||"","pt-BR")).forEach(a=>{
-  const option=document.createElement("option");
-  option.value=a.code||a.id;
+  const option=document.createElement("button");
+  option.type="button"; option.className="airport-option"; option.setAttribute("role","option"); option.setAttribute("aria-selected","false");
   option.textContent=a.name||a.city||a.code;
-  select.appendChild(option);
-  const item=document.createElement("button");
-  item.type="button";
-  item.className="airport-option";
-  item.setAttribute("role","option");
-  item.textContent=option.textContent+(a.experiences.length===0?" — sem experiências cadastradas":"");
-  item.addEventListener("click",()=>{
-   select.value=option.value;
-   button.innerHTML=esc(item.textContent)+' <span aria-hidden="true">▾</span>';
-   menu.hidden=true; button.setAttribute("aria-expanded","false");
-   select.dispatchEvent(new Event("change"));
-  });
-  menu.appendChild(item);
+  option.addEventListener("click",()=>chooseAirport(a.code||a.id,option.textContent,option));
+  list.appendChild(option);
  });
- button.addEventListener("click",()=>{
-  menu.hidden=!menu.hidden;
-  button.setAttribute("aria-expanded",String(!menu.hidden));
- });
- document.addEventListener("click",e=>{
-  if(!e.target.closest(".airport-picker")){menu.hidden=true;button.setAttribute("aria-expanded","false")}
- });
+}
+function chooseAirport(code,label,chosen){
+ selectedAirport=code;
+ $("airportSelected").textContent=label;
+ document.querySelectorAll(".airport-option").forEach(b=>b.setAttribute("aria-selected",String(b===chosen)));
+ $("airportOptions").hidden=true;
+ $("airportToggle").setAttribute("aria-expanded","false");
+ render();
 }
 function accessLabel(v){return /sim/i.test(v||"")?"Disponível":(/não|nao/i.test(v||"")?"Não listado":(v||"A confirmar"))}
 function render(){
  if(!DATA)return;
- const q=norm($("search").value),airport=$("airport").value,cat=$("category").value,prog=$("program").value;
+ const q=norm($("search").value),airport=selectedAirport,cat=$("category").value,prog=$("program").value;
  const list=DATA.experiences.filter(x=>{
   const hay=norm([x.name,x.airportCity,x.airportCode,x.location,x.rules,x.tips,x.vac,x.priorityPass,x.loungeKey].join(" "));
   return (!q||hay.includes(q))&&(!airport||x.airportCode===airport)&&(!cat||x.category===cat)&&(!prog||/sim/i.test(x[prog]||""));

@@ -132,7 +132,7 @@
       "id": "SJP",
       "code": "SJP",
       "city": "São José do Rio Preto (SJP)",
-      "name": "São José do Rio Preto (SJP) — A",
+      "name": "São José do Rio Preto (SJP) — Aeroporto Estadual Professor Eribelto Manoel Reino",
       "experiences": [
         "SJP-84",
         "SJP-85"
@@ -161,7 +161,7 @@
       "id": "UDI",
       "code": "UDI",
       "city": "Uberlândia (UDI)",
-      "name": "Uberlândia (UDI) — Aeroporto Te",
+      "name": "Uberlândia (UDI) — Aeroporto Tenente-Coronel Aviador César Bombonato",
       "experiences": [
         "UDI-97"
       ]
@@ -170,7 +170,7 @@
       "id": "VIX",
       "code": "VIX",
       "city": "Vitória (VIX)",
-      "name": "Vitória (VIX) — Aeroporto de Vi",
+      "name": "Vitória (VIX) — Aeroporto de Vitória — Eurico de Aguiar Salles",
       "experiences": [
         "VIX-98",
         "VIX-99",
@@ -181,7 +181,7 @@
       "id": "RAO",
       "code": "RAO",
       "city": "Ribeirão Preto (RAO)",
-      "name": "Ribeirão Preto (RAO) — Aeroport",
+      "name": "Ribeirão Preto (RAO) — Aeroporto Estadual Dr. Leite Lopes",
       "experiences": [
         "RAO-101"
       ]
@@ -210,7 +210,7 @@
       "id": "FLN",
       "code": "FLN",
       "city": "Florianópolis (FLN)",
-      "name": "Florianópolis (FLN) — Aeroporto",
+      "name": "Florianópolis (FLN) — Aeroporto Internacional de Florianópolis — Hercílio Luz",
       "experiences": [
         "FLN-114",
         "FLN-115",
@@ -224,7 +224,7 @@
       "id": "POA",
       "code": "POA",
       "city": "Porto Alegre (POA)",
-      "name": "Porto Alegre (POA) — Aeroporto",
+      "name": "Porto Alegre (POA) — Aeroporto Internacional Salgado Filho",
       "experiences": [
         "POA-120",
         "POA-121",
@@ -241,7 +241,7 @@
       "id": "NVT",
       "code": "NVT",
       "city": "Navegantes (NVT)",
-      "name": "Navegantes (NVT) — Aeroporto In",
+      "name": "Navegantes (NVT) — Aeroporto Internacional de Navegantes — Ministro Victor Konder",
       "experiences": [
         "NVT-129",
         "NVT-130"
@@ -251,7 +251,7 @@
       "id": "MGF",
       "code": "MGF",
       "city": "Maringá (MGF)",
-      "name": "Maringá (MGF) — Aeroporto Regio",
+      "name": "Maringá (MGF) — Aeroporto Regional de Maringá — Silvio Name Júnior",
       "experiences": [
         "MGF-131",
         "MGF-132"
@@ -261,7 +261,7 @@
       "id": "LDB",
       "code": "LDB",
       "city": "Londrina (LDB)",
-      "name": "Londrina (LDB) — Aeroporto Gove",
+      "name": "Londrina (LDB) — Aeroporto Governador José Richa",
       "experiences": [
         "LDB-133"
       ]
@@ -270,7 +270,7 @@
       "id": "IGU",
       "code": "IGU",
       "city": "Foz do Iguaçu (IGU)",
-      "name": "Foz do Iguaçu (IGU) — Aeroporto",
+      "name": "Foz do Iguaçu (IGU) — Aeroporto Internacional de Foz do Iguaçu/Cataratas",
       "experiences": [
         "IGU-134",
         "IGU-135",
@@ -282,7 +282,7 @@
       "id": "XAP",
       "code": "XAP",
       "city": "Chapecó (XAP)",
-      "name": "Chapecó (XAP) — Aeroporto Seraf",
+      "name": "Chapecó (XAP) — Aeroporto Serafim Enoss Bertaso",
       "experiences": [
         "XAP-138",
         "XAP-139",
@@ -293,7 +293,7 @@
       "id": "JOI",
       "code": "JOI",
       "city": "Joinville (JOI)",
-      "name": "Joinville (JOI) — Aeroporto Lau",
+      "name": "Joinville (JOI) — Aeroporto Lauro Carneiro de Loyola",
       "experiences": [
         "JOI-141"
       ]
@@ -302,7 +302,7 @@
       "id": "BSB",
       "code": "BSB",
       "city": "Brasília (BSB)",
-      "name": "Brasília (BSB) — Aeroporto Internacional de Brasília",
+      "name": "Brasília (BSB) — Aeroporto Internacional de Brasília — Presidente Juscelino Kubitschek",
       "experiences": [
         "BSB-142",
         "BSB-143",
@@ -317,7 +317,7 @@
       "id": "CGB",
       "code": "CGB",
       "city": "Cuiabá (CGB)",
-      "name": "Cuiabá (CGB) — Aeroporto Internacional Marechal Rondon",
+      "name": "Cuiabá (CGB) — Aeroporto Internacional de Cuiabá — Marechal Rondon",
       "experiences": [
         "CGB-149",
         "CGB-150",
@@ -328,7 +328,7 @@
       "id": "CGR",
       "code": "CGR",
       "city": "Campo Grande (CGR)",
-      "name": "Campo Grande (CGR) — Aeroporto",
+      "name": "Campo Grande (CGR) — Aeroporto Internacional de Campo Grande",
       "experiences": [
         "CGR-152"
       ]
@@ -352,7 +352,7 @@
       "id": "OPS",
       "code": "OPS",
       "city": "Sinop (OPS)",
-      "name": "Sinop (OPS) — Aeroporto Preside",
+      "name": "Sinop (OPS) — Aeroporto Presidente João Batista Figueiredo",
       "experiences": [
         "OPS-160"
       ]
@@ -361,7 +361,7 @@
       "id": "BYO",
       "code": "BYO",
       "city": "Bonito (BYO)",
-      "name": "Bonito (BYO) — Aeroporto Region",
+      "name": "Bonito (BYO) — Aeroporto Regional de Bonito",
       "experiences": [],
       "status": "Sem experiência confirmada na fonte consultada"
     },
@@ -369,7 +369,7 @@
       "id": "REC",
       "code": "REC",
       "city": "Recife (REC)",
-      "name": "Recife (REC) — Aeroporto Internacional do Recife/Guararapes",
+      "name": "Recife (REC) — Aeroporto Internacional do Recife/Guararapes — Gilberto Freyre",
       "experiences": [
         "REC-161",
         "REC-162",
@@ -389,7 +389,7 @@
       "id": "FOR",
       "code": "FOR",
       "city": "Fortaleza (FOR)",
-      "name": "Fortaleza (FOR) — Aeroporto Int",
+      "name": "Fortaleza (FOR) — Aeroporto Internacional de Fortaleza — Pinto Martins",
       "experiences": [
         "FOR-173",
         "FOR-174",
@@ -407,7 +407,7 @@
       "id": "SSA",
       "code": "SSA",
       "city": "Salvador (SSA)",
-      "name": "Salvador (SSA) — Aeroporto Internacional de Salvador",
+      "name": "Salvador (SSA) — Aeroporto Internacional de Salvador — Deputado Luís Eduardo Magalhães",
       "experiences": [
         "SSA-183",
         "SSA-184",
@@ -421,7 +421,7 @@
       "id": "MCZ",
       "code": "MCZ",
       "city": "Maceió (MCZ)",
-      "name": "Maceió (MCZ) — Aeroporto Internacional Zumbi dos Palmares",
+      "name": "Maceió (MCZ) — Aeroporto Internacional de Maceió — Zumbi dos Palmares",
       "experiences": [
         "MCZ-189",
         "MCZ-190"
@@ -431,7 +431,7 @@
       "id": "JPA",
       "code": "JPA",
       "city": "João Pessoa (JPA)",
-      "name": "João Pessoa (JPA) — Aeroporto I",
+      "name": "João Pessoa (JPA) — Aeroporto Internacional Presidente Castro Pinto",
       "experiences": [
         "JPA-191"
       ]
@@ -440,7 +440,7 @@
       "id": "NAT",
       "code": "NAT",
       "city": "Natal (NAT)",
-      "name": "Natal (NAT) — Aeroporto Internacional de Natal",
+      "name": "Natal (NAT) — Aeroporto Internacional de Natal — Governador Aluízio Alves",
       "experiences": [
         "NAT-192",
         "NAT-193"
@@ -450,7 +450,7 @@
       "id": "AJU",
       "code": "AJU",
       "city": "Aracaju (AJU)",
-      "name": "Aracaju (AJU) — Aeroporto Santa",
+      "name": "Aracaju (AJU) — Aeroporto de Aracaju — Santa Maria",
       "experiences": [
         "AJU-194"
       ]
@@ -459,7 +459,7 @@
       "id": "SLZ",
       "code": "SLZ",
       "city": "São Luís (SLZ)",
-      "name": "São Luís (SLZ) — Aeroporto Internacional Marechal Cunha Machado",
+      "name": "São Luís (SLZ) — Aeroporto Internacional de São Luís — Marechal Cunha Machado",
       "experiences": [
         "SLZ-195",
         "SLZ-196",
@@ -470,7 +470,7 @@
       "id": "THE",
       "code": "THE",
       "city": "Teresina (THE)",
-      "name": "Teresina (THE) — Aeroporto Sena",
+      "name": "Teresina (THE) — Aeroporto Senador Petrônio Portella",
       "experiences": [
         "THE-198",
         "THE-199"
@@ -480,7 +480,7 @@
       "id": "BPS",
       "code": "BPS",
       "city": "Porto Seguro (BPS)",
-      "name": "Porto Seguro (BPS) — Aeroporto",
+      "name": "Porto Seguro (BPS) — Aeroporto Internacional de Porto Seguro",
       "experiences": [
         "BPS-200"
       ]
@@ -489,7 +489,7 @@
       "id": "IOS",
       "code": "IOS",
       "city": "Ilhéus (IOS)",
-      "name": "Ilhéus (IOS) — Aeroporto Jorge",
+      "name": "Ilhéus (IOS) — Aeroporto Jorge Amado",
       "experiences": [
         "IOS-201",
         "IOS-202"
@@ -499,7 +499,7 @@
       "id": "JDO",
       "code": "JDO",
       "city": "Juazeiro do Norte (JDO)",
-      "name": "Juazeiro do Norte (JDO) — Aerop",
+      "name": "Juazeiro do Norte (JDO) — Aeroporto Orlando Bezerra de Menezes",
       "experiences": [
         "JDO-203"
       ]
@@ -508,7 +508,7 @@
       "id": "BEL",
       "code": "BEL",
       "city": "Belém (BEL)",
-      "name": "Belém (BEL) — Aeroporto Internacional de Belém",
+      "name": "Belém (BEL) — Aeroporto Internacional de Belém — Val-de-Cans — Júlio Cezar Ribeiro",
       "experiences": [
         "BEL-204",
         "BEL-205",
@@ -521,7 +521,7 @@
       "id": "MAO",
       "code": "MAO",
       "city": "Manaus (MAO)",
-      "name": "Manaus (MAO) — Aeroporto Internacional Eduardo Gomes",
+      "name": "Manaus (MAO) — Aeroporto Internacional de Manaus — Eduardo Gomes",
       "experiences": [
         "MAO-209"
       ]
@@ -530,7 +530,7 @@
       "id": "MCP",
       "code": "MCP",
       "city": "Macapá (MCP)",
-      "name": "Macapá (MCP) — Aeroporto Internacional de Macapá",
+      "name": "Macapá (MCP) — Aeroporto Internacional de Macapá — Alberto Alcolumbre",
       "experiences": [
         "MCP-210"
       ]
@@ -539,7 +539,7 @@
       "id": "PMW",
       "code": "PMW",
       "city": "Palmas (PMW)",
-      "name": "Palmas (PMW) — Aeroporto Brigad",
+      "name": "Palmas (PMW) — Aeroporto Brigadeiro Lysias Rodrigues",
       "experiences": [
         "PMW-211"
       ]
@@ -548,7 +548,7 @@
       "id": "PVH",
       "code": "PVH",
       "city": "Porto Velho (PVH)",
-      "name": "Porto Velho (PVH) — Aeroporto",
+      "name": "Porto Velho (PVH) — Aeroporto Internacional de Porto Velho — Governador Jorge Teixeira de Oliveira",
       "experiences": [],
       "status": "Sem experiência confirmada na fonte consultada"
     },
@@ -556,7 +556,7 @@
       "id": "RBR",
       "code": "RBR",
       "city": "Rio Branco (RBR)",
-      "name": "Rio Branco (RBR) — Aeroporto In",
+      "name": "Rio Branco (RBR) — Aeroporto Internacional de Rio Branco — Plácido de Castro",
       "experiences": [],
       "status": "Sem experiência confirmada na fonte consultada"
     },
@@ -564,7 +564,7 @@
       "id": "BVB",
       "code": "BVB",
       "city": "Boa Vista (BVB)",
-      "name": "Boa Vista (BVB) — Aeroporto Int",
+      "name": "Boa Vista (BVB) — Aeroporto Internacional de Boa Vista — Atlas Brasil Cantanhede",
       "experiences": [],
       "status": "Sem experiência confirmada na fonte consultada"
     },
@@ -572,7 +572,7 @@
       "id": "STM",
       "code": "STM",
       "city": "Santarém (STM)",
-      "name": "Santarém (STM) — Aeroporto Internacional de Santarém",
+      "name": "Santarém (STM) — Aeroporto Internacional de Santarém — Maestro Wilson Fonseca",
       "experiences": [],
       "status": "Sem experiência confirmada na fonte consultada"
     },

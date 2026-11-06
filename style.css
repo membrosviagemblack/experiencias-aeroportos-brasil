@@ -26,15 +26,40 @@ body{font-size:16px}
 
 .source-link{margin-top:12px;font-size:14px}.source-link a{color:var(--accent);font-weight:700;text-decoration:underline;text-underline-offset:3px}
 
-/* Identidade visual e legibilidade - atualização */
-:root{--paper:#DBDBDB}
-body{background:#DBDBDB}
-.airport-filter{min-width:260px;flex:1 1 300px}
-.airport-picker{position:relative}
-.airport-button{width:100%;min-height:48px;display:flex;align-items:center;justify-content:space-between;gap:12px;text-align:left;border:1px solid #c5cdd0;border-radius:6px;background:#fff;padding:10px 13px;color:var(--ink);font:inherit;font-size:16px;line-height:1.4;cursor:pointer}
-.airport-button span{flex:0 0 auto}
-.airport-menu{position:absolute;z-index:20;top:calc(100% + 4px);left:0;right:0;max-height:360px;overflow-y:auto;background:#fff;border:1px solid #c5cdd0;border-radius:7px;box-shadow:0 8px 22px #172d3c22;padding:5px}
-.airport-option{display:block;width:100%;padding:10px 11px;border:0;border-radius:4px;background:#fff;color:var(--ink);font:inherit;font-size:15px;line-height:1.4;text-align:left;white-space:normal;overflow-wrap:anywhere;cursor:pointer}
-.airport-option:hover,.airport-option:focus{background:#edf3f2;outline:0}
-.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
-@media(max-width:700px){.airport-filter{width:100%;flex-basis:100%}.airport-menu{max-height:55vh}}
+
+/* Identidade visual e seletor de aeroportos - revisao solicitada */
+:root{--paper:#DBDBDB;--ink:#172d3c;--muted:#53636d;--line:#c7cccf;--white:#fff}
+html,body{background:#DBDBDB}
+.top,.card,.notice,.search-wrap,.airport-toggle,.airport-options,footer{background:#fff}
+.top{border-bottom-color:#c7cccf}
+.hero{padding-top:68px}
+.hero .eyebrow{font-size:14px;letter-spacing:1.3px}
+.hero h1{font-size:clamp(36px,5.5vw,62px)}
+.intro{font-size:17px}
+.search-wrap{max-width:860px}
+.search-wrap input{font-size:17px}
+.filters{align-items:flex-end;gap:16px}
+.filters>div{min-width:210px}
+.filters .airport-filter{width:min(100%,720px);min-width:min(100%,320px);flex:1 1 420px}
+.airport-picker{position:relative;width:100%}
+.airport-toggle{width:100%;min-height:48px;height:auto;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:10px 14px;border:1px solid #b9c1c5;border-radius:6px;color:var(--ink);font:inherit;font-size:16px;text-align:left;cursor:pointer;white-space:normal}
+#airportSelected{display:block;min-width:0;overflow-wrap:anywhere;line-height:1.35}
+.picker-chevron{flex:0 0 auto;color:var(--accent);font-size:18px}
+.airport-options{position:absolute;z-index:20;top:calc(100% + 5px);left:0;width:100%;max-height:360px;overflow-y:auto;border:1px solid #b9c1c5;border-radius:7px;box-shadow:0 8px 24px rgba(23,45,60,.16);padding:5px}
+.airport-option{display:block;width:100%;padding:10px 12px;border:0;border-radius:4px;background:#fff;color:var(--ink);font:inherit;font-size:15px;line-height:1.4;text-align:left;white-space:normal;overflow-wrap:anywhere;cursor:pointer}
+.airport-option:hover,.airport-option:focus{background:#eef3f2;outline:none}
+.airport-option[aria-selected="true"]{font-weight:700;color:var(--accent)}
+.filters label{font-size:15px}
+.filters select{font-size:16px;min-height:48px}
+.card{border-color:#d0d5d7;box-shadow:0 2px 8px rgba(23,45,60,.045)}
+.card h3{font-size:21px}
+.detail{font-size:16px;line-height:1.65}
+.tag,.program{font-size:13px}
+.tip{font-size:15px;line-height:1.7}
+.notice p{font-size:15px}
+@media(max-width:700px){
+ .filters .airport-filter{width:100%;min-width:0;flex-basis:100%}
+ .airport-options{max-height:55vh}
+ .airport-toggle{font-size:15px}
+ .detail{font-size:15px}
+}
