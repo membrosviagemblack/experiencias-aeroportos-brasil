@@ -3,14 +3,33 @@ const $=id=>document.getElementById(id);
 const norm=s=>(s||"").toString().normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
 fetch("dados/aeroportos.json").then(r=>r.json()).then(d=>{DATA=d;$("airportCount").textContent=d.airports.length;$("experienceCount").textContent=d.experiences.length;populateAirports();render()}).catch(()=>{$("cards").innerHTML="<p>Não foi possível carregar os dados. Verifique se a pasta dados foi publicada junto com o site.</p>"});
 ["search","airport","category","program"].forEach(id=>$(id).addEventListener(id==="search"?"input":"change",render));
-$("clear").addEventListener("click",()=>{$("search").value="";$("airport").value="";$("category").value="";$("program").value="";render()});
+$("clear").addEventListener("click",()=>{$("search").value="";$("airport").value="";$("category").value="";$("program").value="";$("airportButton").innerHTML='Todos os aeroportos <span aria-hidden="true">▾</span>';render()});
 function populateAirports(){
- const select=$("airport");
+ const select=$("airport"), button=$("airportButton"), menu=$("airportMenu");
  DATA.airports.slice().sort((a,b)=>(a.name||"").localeCompare(b.name||"","pt-BR")).forEach(a=>{
   const option=document.createElement("option");
   option.value=a.code||a.id;
-  option.textContent=(a.name||a.city||a.code)+(a.experiences.length===0?" — sem experiências cadastradas":"");
+  option.textContent=a.name||a.city||a.code;
   select.appendChild(option);
+  const item=document.createElement("button");
+  item.type="button";
+  item.className="airport-option";
+  item.setAttribute("role","option");
+  item.textContent=option.textContent+(a.experiences.length===0?" — sem experiências cadastradas":"");
+  item.addEventListener("click",()=>{
+   select.value=option.value;
+   button.innerHTML=esc(item.textContent)+' <span aria-hidden="true">▾</span>';
+   menu.hidden=true; button.setAttribute("aria-expanded","false");
+   select.dispatchEvent(new Event("change"));
+  });
+  menu.appendChild(item);
+ });
+ button.addEventListener("click",()=>{
+  menu.hidden=!menu.hidden;
+  button.setAttribute("aria-expanded",String(!menu.hidden));
+ });
+ document.addEventListener("click",e=>{
+  if(!e.target.closest(".airport-picker")){menu.hidden=true;button.setAttribute("aria-expanded","false")}
  });
 }
 function accessLabel(v){return /sim/i.test(v||"")?"Disponível":(/não|nao/i.test(v||"")?"Não listado":(v||"A confirmar"))}

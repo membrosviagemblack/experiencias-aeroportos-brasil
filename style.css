@@ -25,3 +25,16 @@ body{font-size:16px}
 }
 
 .source-link{margin-top:12px;font-size:14px}.source-link a{color:var(--accent);font-weight:700;text-decoration:underline;text-underline-offset:3px}
+
+/* Identidade visual e legibilidade - atualização */
+:root{--paper:#DBDBDB}
+body{background:#DBDBDB}
+.airport-filter{min-width:260px;flex:1 1 300px}
+.airport-picker{position:relative}
+.airport-button{width:100%;min-height:48px;display:flex;align-items:center;justify-content:space-between;gap:12px;text-align:left;border:1px solid #c5cdd0;border-radius:6px;background:#fff;padding:10px 13px;color:var(--ink);font:inherit;font-size:16px;line-height:1.4;cursor:pointer}
+.airport-button span{flex:0 0 auto}
+.airport-menu{position:absolute;z-index:20;top:calc(100% + 4px);left:0;right:0;max-height:360px;overflow-y:auto;background:#fff;border:1px solid #c5cdd0;border-radius:7px;box-shadow:0 8px 22px #172d3c22;padding:5px}
+.airport-option{display:block;width:100%;padding:10px 11px;border:0;border-radius:4px;background:#fff;color:var(--ink);font:inherit;font-size:15px;line-height:1.4;text-align:left;white-space:normal;overflow-wrap:anywhere;cursor:pointer}
+.airport-option:hover,.airport-option:focus{background:#edf3f2;outline:0}
+.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+@media(max-width:700px){.airport-filter{width:100%;flex-basis:100%}.airport-menu{max-height:55vh}}

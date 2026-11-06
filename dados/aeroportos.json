@@ -190,7 +190,7 @@
       "id": "CWB",
       "code": "CWB",
       "city": "Curitiba (CWB)",
-      "name": "Curitiba (CWB) — Aeroporto Inte",
+      "name": "Curitiba (CWB) — Aeroporto Internacional Afonso Pena",
       "experiences": [
         "CWB-102",
         "CWB-103",
@@ -302,7 +302,7 @@
       "id": "BSB",
       "code": "BSB",
       "city": "Brasília (BSB)",
-      "name": "Brasília (BSB) — Aeroporto Inte",
+      "name": "Brasília (BSB) — Aeroporto Internacional de Brasília",
       "experiences": [
         "BSB-142",
         "BSB-143",
@@ -317,7 +317,7 @@
       "id": "CGB",
       "code": "CGB",
       "city": "Cuiabá (CGB)",
-      "name": "Cuiabá (CGB) — Aeroporto Intern",
+      "name": "Cuiabá (CGB) — Aeroporto Internacional Marechal Rondon",
       "experiences": [
         "CGB-149",
         "CGB-150",
@@ -337,7 +337,7 @@
       "id": "GYN",
       "code": "GYN",
       "city": "Goiânia (GYN)",
-      "name": "Goiânia (GYN) — Aeroporto Inter",
+      "name": "Goiânia (GYN) — Aeroporto Santa Genoveva",
       "experiences": [
         "GYN-153",
         "GYN-154",
@@ -369,7 +369,7 @@
       "id": "REC",
       "code": "REC",
       "city": "Recife (REC)",
-      "name": "Recife (REC) — Aeroporto Intern",
+      "name": "Recife (REC) — Aeroporto Internacional do Recife/Guararapes",
       "experiences": [
         "REC-161",
         "REC-162",
@@ -407,7 +407,7 @@
       "id": "SSA",
       "code": "SSA",
       "city": "Salvador (SSA)",
-      "name": "Salvador (SSA) — Aeroporto Inte",
+      "name": "Salvador (SSA) — Aeroporto Internacional de Salvador",
       "experiences": [
         "SSA-183",
         "SSA-184",
@@ -421,7 +421,7 @@
       "id": "MCZ",
       "code": "MCZ",
       "city": "Maceió (MCZ)",
-      "name": "Maceió (MCZ) — Aeroporto Intern",
+      "name": "Maceió (MCZ) — Aeroporto Internacional Zumbi dos Palmares",
       "experiences": [
         "MCZ-189",
         "MCZ-190"
@@ -440,7 +440,7 @@
       "id": "NAT",
       "code": "NAT",
       "city": "Natal (NAT)",
-      "name": "Natal (NAT) — Aeroporto Interna",
+      "name": "Natal (NAT) — Aeroporto Internacional de Natal",
       "experiences": [
         "NAT-192",
         "NAT-193"
@@ -459,7 +459,7 @@
       "id": "SLZ",
       "code": "SLZ",
       "city": "São Luís (SLZ)",
-      "name": "São Luís (SLZ) — Aeroporto Inte",
+      "name": "São Luís (SLZ) — Aeroporto Internacional Marechal Cunha Machado",
       "experiences": [
         "SLZ-195",
         "SLZ-196",
@@ -508,7 +508,7 @@
       "id": "BEL",
       "code": "BEL",
       "city": "Belém (BEL)",
-      "name": "Belém (BEL) — Aeroporto Interna",
+      "name": "Belém (BEL) — Aeroporto Internacional de Belém",
       "experiences": [
         "BEL-204",
         "BEL-205",
@@ -521,7 +521,7 @@
       "id": "MAO",
       "code": "MAO",
       "city": "Manaus (MAO)",
-      "name": "Manaus (MAO) — Aeroporto Intern",
+      "name": "Manaus (MAO) — Aeroporto Internacional Eduardo Gomes",
       "experiences": [
         "MAO-209"
       ]
@@ -530,7 +530,7 @@
       "id": "MCP",
       "code": "MCP",
       "city": "Macapá (MCP)",
-      "name": "Macapá (MCP) — Aeroporto Intern",
+      "name": "Macapá (MCP) — Aeroporto Internacional de Macapá",
       "experiences": [
         "MCP-210"
       ]
@@ -572,7 +572,7 @@
       "id": "STM",
       "code": "STM",
       "city": "Santarém (STM)",
-      "name": "Santarém (STM) — Aeroporto Inte",
+      "name": "Santarém (STM) — Aeroporto Internacional de Santarém",
       "experiences": [],
       "status": "Sem experiência confirmada na fonte consultada"
     },
