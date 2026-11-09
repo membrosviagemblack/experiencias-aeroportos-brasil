@@ -1,30 +1,17 @@
-# Airport Experience Brasil
+# Guia dos Membros Viagem Black — Airport Experience Brasil
 
-Catálogo público e responsivo de experiências em aeroportos brasileiros.
+## Publicação
+Envie `index.html` para a raiz do repositório GitHub Pages, substituindo o arquivo anterior.
 
-## Arquivos
-- `index.html`: página principal
-- `style.css`: identidade visual e layout responsivo
-- `app.js`: busca e filtros
-- `dados/aeroportos.json`: dados importados da planilha original
+## Funcionalidades incluídas
+- Tema claro/escuro com preferência salva no navegador.
+- Seletor de aeroporto personalizado: abre, fecha ao selecionar, ao clicar fora ou pressionar Esc.
+- Nomes completos dos aeroportos com códigos IATA.
+- Atalhos em botões IATA para filtrar diretamente. Um segundo clique no mesmo código limpa o filtro.
+- Área administrativa para cadastrar, editar e excluir experiências personalizadas e administrar logins locais.
 
-## Publicar no GitHub Pages
-1. Crie um repositório público no GitHub.
-2. Envie todos os arquivos e a pasta `dados` mantendo a estrutura.
-3. Abra Settings > Pages.
-4. Em Build and deployment, selecione Deploy from a branch.
-5. Escolha `main` e `/ (root)`, depois Save.
+## Limitação importante da administração
+Este projeto é uma página estática do GitHub Pages. Os cadastros e administradores usam `localStorage` do navegador: ficam somente no dispositivo/navegador onde foram criados e não atualizam os dados públicos para os demais visitantes. O hash de senha e a tela de login no HTML estático não equivalem a autenticação segura de servidor. Para administração compartilhada e segura é necessário backend com autenticação e banco de dados.
 
-## Observações
-Os dados foram importados da planilha fornecida. Campos ausentes ou marcados como "a confirmar" devem ser revisados antes de tratar a informação como definitiva. Confirme condições de acesso, horários e benefícios nos canais oficiais dos programas e estabelecimentos.
-
-
-Atualização: o catálogo agora inclui seleção de aeroporto em menu suspenso. A aba de Santos Dumont (SDU) foi recuperada da planilha, com 8 experiências. Foram removidos 8 registros duplicados sem código de aeroporto e corrigidas as categorias de Orla 21 e Living Heineken (gastronomia).
-
-## Revisão de cobertura
-- 50 aeroportos no menu suspenso.
-- 219 experiências listadas.
-- A comparação com as 45 abas da planilha não encontrou experiências omitidas (após excluir as linhas que apenas informavam ausência de sala e o marcador de Bonito).
-- A consulta ao diretório oficial Priority Pass identificou 5 aeroportos adicionais e 3 salas adicionais em Viracopos. Os novos registros têm link para a fonte oficial.
-- BYO, PVH, RBR, BVB e STM permanecem no menu sem experiência confirmada nesta revisão; isso não prova que não exista nenhuma opção, apenas que não foi confirmada nas fontes consultadas.
-- Horários, regras e elegibilidade devem ser confirmados no aplicativo oficial antes da viagem.
+## Dados
+Os registros originais foram mantidos incorporados ao HTML fornecido como base.
