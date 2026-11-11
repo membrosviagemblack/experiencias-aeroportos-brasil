@@ -83,7 +83,9 @@
         "VCP-58",
         "VCP-59",
         "VCP-60",
-        "VCP-61"
+        "VCP-61",
+        "VCP-62",
+        "VCP-63"
       ]
     },
     {
@@ -1537,6 +1539,34 @@
       "location": "Terminal/localização não informado na fonte recebida",
       "rules": "Até US$ 32 ou regra do VAC",
       "tips": "Aceita mais de 1 acesso por CPF"
+    },
+    {
+      "id": "VCP-62",
+      "airportCode": "VCP",
+      "airportCity": "Campinas",
+      "name": "Ambaar Club",
+      "category": "Sala VIP",
+      "hours": "",
+      "vac": "",
+      "priorityPass": "",
+      "loungeKey": "",
+      "location": "",
+      "rules": "",
+      "tips": ""
+    },
+    {
+      "id": "VCP-63",
+      "airportCode": "VCP",
+      "airportCity": "Campinas",
+      "name": "The Lounge Viracopos",
+      "category": "Sala VIP",
+      "hours": "",
+      "vac": "",
+      "priorityPass": "",
+      "loungeKey": "",
+      "location": "",
+      "rules": "",
+      "tips": ""
     },
     {
       "id": "GIG-62",
