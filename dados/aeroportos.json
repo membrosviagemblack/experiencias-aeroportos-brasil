@@ -85,7 +85,8 @@
         "VCP-60",
         "VCP-61",
         "VCP-62",
-        "VCP-63"
+        "VCP-63",
+        "VCP-64"
       ]
     },
     {
@@ -1546,13 +1547,13 @@
       "airportCity": "Campinas",
       "name": "Ambaar Club",
       "category": "Sala VIP",
-      "hours": "",
-      "vac": "",
-      "priorityPass": "",
-      "loungeKey": "",
-      "location": "",
-      "rules": "",
-      "tips": ""
+      "hours": "00h–23h59",
+      "vac": "Não",
+      "priorityPass": "Sim",
+      "loungeKey": "Sim",
+      "location": "Terminal 1 doméstico, após a segurança, 1º andar, próximo à praça de alimentação",
+      "rules": "Permanência máxima de 4 horas; em horários de pico, acesso permitido até 4 horas antes do voo.",
+      "tips": "Crianças menores de 2 anos não pagam"
     },
     {
       "id": "VCP-63",
@@ -1560,12 +1561,26 @@
       "airportCity": "Campinas",
       "name": "The Lounge Viracopos",
       "category": "Sala VIP",
-      "hours": "",
-      "vac": "",
-      "priorityPass": "",
-      "loungeKey": "",
-      "location": "",
+      "hours": "00h–23h59",
+      "vac": "Não",
+      "priorityPass": "Sim",
+      "loungeKey": "Sim",
+      "location": "Terminal 1 doméstico, após a segurança, 1º andar, próximo à praça de alimentação",
       "rules": "",
+      "tips": "Benefício de gratuidade para crianças de até 12 anos"
+    },
+    {
+      "id": "VCP-64",
+      "airportCode": "VCP",
+      "airportCity": "Campinas",
+      "name": "Advantage VIP Lounge",
+      "category": "Sala VIP",
+      "hours": "00h–23h59",
+      "vac": "Não",
+      "priorityPass": "Sim",
+      "loungeKey": "Sim",
+      "location": "Terminal 1 doméstico, lado ar, 1º andar, próximo à praça de alimentação",
+      "rules": "Permanência máxima de 3 horas. O diretório também lista opção com Fast Track em horário separado.",
       "tips": ""
     },
     {
