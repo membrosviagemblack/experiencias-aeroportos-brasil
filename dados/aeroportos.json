@@ -2043,7 +2043,7 @@
       "loungeKey": "Não",
       "location": "Embarque doméstico, em frente ao portão 1",
       "rules": "Crédito VAC de US$ 32",
-      "tips": ""
+      "tips": "Passa vários acessos"
     },
     {
       "id": "CNF-95",
@@ -2071,7 +2071,7 @@
       "loungeKey": "Não",
       "location": "Terminal/localização não informado na fonte recebida",
       "rules": "Até US$ 32 ou regra do VAC",
-      "tips": "Pode usar vários cartões; opção de vinho ou cachaça mineira conforme regra local."
+      "tips": "Passa vários acessos; opção de vinho ou cachaça mineira conforme regra local."
     },
     {
       "id": "CNF-97",
